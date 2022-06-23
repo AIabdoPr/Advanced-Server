@@ -1,0 +1,8 @@
+
+.feedback {
+  display: none;
+  color: #a94442;
+}
+.is-invalid {
+  display: block;
+}

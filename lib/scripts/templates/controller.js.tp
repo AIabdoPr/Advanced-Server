@@ -1,0 +1,19 @@
+const Controller = require('../../..{{ dir }}/lib/pkgs/Controller');
+
+class {{ controller_name }}Controller extends Controller {
+
+  index(request, response) {
+    response.send('index');
+  }
+
+  view(request, response) {
+    response.send('view');
+  }
+
+  find(request, response) {
+    response.send('find');
+  }
+
+}
+
+module.exports = {{ controller_name }}Controller;

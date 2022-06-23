@@ -1,0 +1,55 @@
+{
+  "name": "advanced-server",
+  "version": "1.0.0",
+  "description": "An Advanced server",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node \"test/test_client.js\"",
+    "start": "node index",
+    "dev": "nodemon index",
+    "make:model": "node \"lib/scripts/make_model.js\"",
+    "make:migration": "node \"lib/scripts/make_migration.js\"",
+    "make:fake": "node \"lib/scripts/make_fake.js\"",
+    "make:application": "node \"lib/scripts/make_application.js\"",
+    "make:controller": "node \"lib/scripts/make_controller.js\"",
+    "make:middleware": "node \"lib/scripts/make_middleware.js\"",
+    "make:view": "node \"lib/scripts/make_view.js\"",
+    "make:routes_source": "node \"lib/scripts/make_routes_source.js\"",
+    "migrate": "node \"lib/scripts/migrate.js\"",
+    "fake": "node \"lib/scripts/fake.js\"",
+    "fake-password": "node \"lib/scripts/fake_password.js\"",
+    "generate-key": "node \"lib/scripts/generate_key.js\""
+  },
+  "dependencies": {
+    "@rodrigogs/mysql-events": "^0.6.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^8.5.1",
+    "promise-mysql": "^5.2.0",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "ws": "^8.8.0"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AIabdoPr/Wallet-App-Server"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
